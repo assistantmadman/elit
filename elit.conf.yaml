@@ -1,0 +1,34 @@
+path:
+  # Path to required binaries
+
+  # UseGlobalPath (yes,no) if all binaries are located in one directory
+  # set to yes. If you plan to use individual paths be sure to populate them
+  # in 'Binary Paths'
+
+  # Global Binary Path
+  GlobalBinPath: /usr/bin
+
+  # Binary Paths
+  Path_mediainfo: /usr/bin
+  Path_mkvmerge: /usr/bin
+  Path_ffmpeg: /usr/bin
+  Path_MP4Box: /usr/bin
+  Path_AtomicParsley: /usr/bin
+
+  # File Paths
+  # UseSystemTmp (yes,no) if using system temp folder location set to yes.
+  # If you plan to use your own tmp folder populate it in Path_tmp
+  UseSystemTmp: no
+  # Path to use ast tmp if not using system temp folder
+  Path_tmp: /home/jdborders/Videos/working
+  # Path to write main log file
+  Path_log: /home/jdborders/Videos/working
+  # Path to look for video files to be processed
+  Path_unprocessed: /home/jdborders/Videos/unprocessed
+  # Path to save completed files
+  Path_complete: /home/jdborders/Videos/complete
+  # Path to move processed original files
+  Path_processed: /home/jdborders/Videos/processed
+
+logging:
+  # Logging Configuration
